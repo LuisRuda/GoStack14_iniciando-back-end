@@ -1,7 +1,6 @@
 import Redis, { Redis as RedisClient } from 'ioredis';
 
 import cacheConfig from '@config/cache';
-import { da } from 'date-fns/locale';
 import ICacheProvider from '../models/ICacheProvider';
 
 export default class RedisCacheProvider implements ICacheProvider {
